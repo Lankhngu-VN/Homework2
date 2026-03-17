@@ -1,6 +1,10 @@
 a, b = map(float, input().split())
 if a == 0:
-
-
-print(f'gia tri cua x la {-b/a}')
+    if b == 0:
+        print("phuong trinh co vo so nghiem")
+    else:
+        print("phuong trinh vo nghiem")
+else:
+    x = -b/a
+    print(f'pt co nghiem duy nhat x = {x}')
 
